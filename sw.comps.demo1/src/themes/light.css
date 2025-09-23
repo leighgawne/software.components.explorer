@@ -1,0 +1,95 @@
+/* Light Theme CSS - Based on original ModuleExplorer.css */
+
+/* Typography */
+.theme-light .text-gray-400 { color: #9ca3af; }
+.theme-light .text-gray-500 { color: #6b7280; }
+.theme-light .text-gray-600 { color: #4b5563; }
+.theme-light .text-gray-700 { color: #374151; }
+.theme-light .text-gray-900 { color: #111827; }
+
+/* Borders */
+.theme-light .border-gray-200 { border-color: #e5e7eb; }
+.theme-light .border-gray-300 { border-color: #d1d5db; }
+
+/* Background */
+.theme-light .bg-white { background-color: #fff; }
+.theme-light .bg-gray-50 { background-color: #f9fafb; }
+.theme-light .bg-gray-100 { background-color: #f3f4f6; }
+.theme-light .bg-white\/80 { background-color: rgba(255, 255, 255, 0.8); }
+.theme-light .bg-white\/60 { background-color: rgba(255, 255, 255, 0.6); }
+
+/* Hover states */
+.theme-light .hover\:bg-gray-50:hover { background-color: #f9fafb; }
+.theme-light .hover\:bg-gray-100:hover { background-color: #f3f4f6; }
+.theme-light .hover\:bg-gray-800:hover { background-color: #1f2937; }
+.theme-light .hover\:bg-gray-900:hover { background-color: #111827; }
+
+/* Focus states */
+.theme-light .focus\:ring-black:focus { box-shadow: 0 0 0 2px #000; }
+
+/* Ring utilities for selected states */
+.theme-light .ring-black { box-shadow: 0 0 0 2px #000; }
+
+/* Button variants for light theme */
+.theme-light .btn-default { 
+  background-color: #000; 
+  color: white; 
+}
+.theme-light .btn-default:hover { 
+  background-color: #1f2937; 
+}
+.theme-light .btn-outline { 
+  border-color: #d1d5db; 
+  background-color: #fff; 
+  color: #111827; 
+}
+.theme-light .btn-outline:hover { 
+  background-color: #f9fafb; 
+}
+.theme-light .btn-ghost { 
+  color: #374151; 
+}
+.theme-light .btn-ghost:hover { 
+  background-color: #f3f4f6; 
+}
+
+/* Input styles for light theme */
+.theme-light .input-base {
+  border-color: #d1d5db;
+  background-color: #fff;
+  color: #111827;
+}
+.theme-light .input-base:focus {
+  box-shadow: 0 0 0 2px #000;
+}
+
+/* App nav styles for light theme */
+.theme-light .app-nav {
+  background-color: #f9fafb;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.theme-light .nav-btn {
+  color: #374151;
+  background-color: transparent;
+}
+
+.theme-light .nav-btn:hover {
+  background-color: #f3f4f6;
+}
+
+.theme-light .nav-btn.active {
+  background-color: #111827;
+  color: white;
+}
+
+/* Theme toggle button */
+.theme-light .theme-toggle {
+  background-color: #f3f4f6;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.theme-light .theme-toggle:hover {
+  background-color: #e5e7eb;
+}

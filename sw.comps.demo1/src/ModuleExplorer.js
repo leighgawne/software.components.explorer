@@ -7,9 +7,9 @@ import './ModuleExplorer.css';
 const Button = ({className = "", variant="default", size="md", icon, children, ...props}) => {
   const base = "inline-flex items-center gap-2 rounded-2xl shadow-sm transition focus:outline-none focus:ring-2 focus:ring-offset-2";
   const variants = {
-    default: "bg-black text-white hover:bg-gray-800 focus:ring-black",
-    outline: "border border-gray-300 bg-white hover:bg-gray-50 text-gray-900 focus:ring-gray-400",
-    ghost: "hover:bg-gray-100 text-gray-700"
+    default: "btn-default",
+    outline: "btn-outline border",
+    ghost: "btn-ghost"
   };
   const sizes = { sm: "px-3 py-1.5 text-sm", md: "px-4 py-2", lg: "px-5 py-2.5 text-lg" };
   return (
@@ -18,7 +18,7 @@ const Button = ({className = "", variant="default", size="md", icon, children, .
 };
 
 const Input = ({className = "", ...props}) => (
-  <input className={`w-full rounded-2xl border border-gray-300 bg-white px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black ${className}`} {...props} />
+  <input className={`input-base w-full rounded-2xl border px-4 py-2 focus:outline-none focus:ring-2 ${className}`} {...props} />
 );
 
 const Chip = ({label}) => (
