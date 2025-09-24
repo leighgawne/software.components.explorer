@@ -15,32 +15,37 @@ body {
 
 .app-container {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.app-nav {
-  padding: 10px 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.app-header {
+  border-bottom: 1px solid;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   transition: all 0.3s ease;
+  flex-shrink: 0;
 }
 
-.nav-btn {
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-  transition: all 0.3s ease;
-  font-family: inherit;
+.app-main {
+  flex: 1;
+  overflow: hidden;
 }
 
-.nav-btn:focus {
-  outline: none;
-}
-
-.App {
-  text-align: center;
-}
+/* Additional utility classes */
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.gap-4 { gap: 1rem; }
+.px-6 { padding-left: 1.5rem; padding-right: 1.5rem; }
+.py-4 { padding-top: 1rem; padding-bottom: 1rem; }
+.px-3 { padding-left: 0.75rem; padding-right: 0.75rem; }
+.py-1\.5 { padding-top: 0.375rem; padding-bottom: 0.375rem; }
+.text-xl { font-size: 1.25rem; line-height: 1.75rem; }
+.font-semibold { font-weight: 600; }
+.text-sm { font-size: 0.875rem; line-height: 1.25rem; }
+.font-medium { font-weight: 500; }
+.rounded-2xl { border-radius: 1rem; }
+.transition-colors { transition-property: color, background-color, border-color, text-decoration-color, fill, stroke; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
 
 .App-logo {
   height: 40vmin;

@@ -1,5 +1,11 @@
 /* Light Theme CSS - Based on original ModuleExplorer.css */
 
+/* Base theme styles */
+.theme-light {
+  background-color: #f9fafb;
+  color: #111827;
+}
+
 /* Typography */
 .theme-light .text-gray-400 { color: #9ca3af; }
 .theme-light .text-gray-500 { color: #6b7280; }
@@ -63,24 +69,14 @@
   box-shadow: 0 0 0 2px #000;
 }
 
-/* App nav styles for light theme */
-.theme-light .app-nav {
+/* App header styles for light theme */
+.theme-light .app-header {
   background-color: #f9fafb;
-  border-bottom: 1px solid #e5e7eb;
+  border-bottom-color: #e5e7eb;
 }
 
-.theme-light .nav-btn {
-  color: #374151;
-  background-color: transparent;
-}
-
-.theme-light .nav-btn:hover {
-  background-color: #f3f4f6;
-}
-
-.theme-light .nav-btn.active {
-  background-color: #111827;
-  color: white;
+.theme-light .app-header h1 {
+  color: #111827;
 }
 
 /* Theme toggle button */
@@ -92,4 +88,29 @@
 
 .theme-light .theme-toggle:hover {
   background-color: #e5e7eb;
+}
+
+/* Sidebar styles for light theme */
+.theme-light .sidebar-container {
+  background-color: #fff;
+}
+
+/* Sidebar button styles */
+.theme-light button.hover\:bg-gray-100:hover {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.theme-light button.bg-gray-100 {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+/* Ensure all sidebar buttons have proper text contrast */
+.theme-light .sidebar-container button {
+  color: #374151;
+}
+
+.theme-light .sidebar-container button:hover {
+  color: #111827;
 }
