@@ -144,10 +144,10 @@ export default function App() {
     (async () => {
       setLoading(true);
       try {
-        const res = await fetch("/eval_kits_and_sw_projects.json", { cache: "no-store" });
+        const res = await fetch("https://ngv.rs/a?alias=leighs.micro.webapp.demo7.nano.data.1.eval_kits_sw.json&dr=true", { cache: "no-store" });
         if (!res.ok) throw new Error("HTTP " + res.status);
-        const json = (await res.json()) as Root;
-        if (!cancelled) setRoot(json);
+        const json = (await res.json()) as Root[];
+        if (!cancelled) setRoot(json[0]);
       } catch (e) {
         if (!cancelled) {
           setError("Couldn't load /eval_kits_and_sw_projects.json. Using a tiny built-in sample so the UI still works.");
@@ -172,9 +172,9 @@ export default function App() {
       const list = (root.unique_sw_projects && root.unique_sw_projects.length)
         ? root.unique_sw_projects.slice()
         : Array.from(projectsIndex.keys());
-      return list;
+      return list.sort();
     }
-    return Array.from(kitsIndex.keys());
+    return Array.from(kitsIndex.keys()).sort();
   }, [root, mode, projectsIndex, kitsIndex]);
 
   const filtered = useMemo(() => {

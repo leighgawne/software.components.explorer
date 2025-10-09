@@ -1,0 +1,204 @@
+[
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA2T1",
+    "MCU max motors": 1,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "sensorless",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA4T1",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "sensorless",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA4T1",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "hall",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA4T1",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Scalar (Trapezoidal / V/HZ)",
+    "Sensor": "sensorless",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA4T1",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Scalar (Trapezoidal / V/HZ)",
+    "Sensor": "hall",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA6T2",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "sensorless",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA6T2",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "hall",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA6T2",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "inductive",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA6T2",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Scalar (Trapezoidal / V/HZ)",
+    "Sensor": "sensorless",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA6T2",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Scalar (Trapezoidal / V/HZ)",
+    "Sensor": "hall",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA6T3",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "sensorless",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA6T3",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "hall",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA6T3",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "inductive",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA6T3",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "encoder",
+    "Control Mode": "Position"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA6T3",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Scalar (Trapezoidal / V/HZ)",
+    "Sensor": "sensorless",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA6T3",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Scalar (Trapezoidal / V/HZ)",
+    "Sensor": "hall",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA8T1",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "sensorless",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RA8T1",
+    "MCU max motors": 2,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "hall",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RX26T",
+    "MCU max motors": 4,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "sensorless",
+    "Control Mode": "Speed"
+  },
+  {
+    "HW (MCI)": "LV",
+    "MCU (MCB)": "RX26T",
+    "MCU max motors": 4,
+    "PFC Option": "NO",
+    "Motor Technology": "PMSM/BLDC",
+    "Control Algorithm": "Vector (FOC)",
+    "Sensor": "encoder",
+    "Control Mode": "Position"
+  }
+]
+
+
